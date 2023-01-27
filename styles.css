@@ -1,0 +1,25 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin:0;
+    overflow: hidden;
+    font-family: Helvetica;
+}
+
+#tree {
+  width:100%;
+  height:100%;
+}
+
+#tree>svg {
+  background-color: #2E2E2E;
+}
+
+svg.tommy .node.original>rect {
+      fill: #114d7e;
+}
+
+svg.tommy .node.add>rect {
+      fill: #005e3e;
+}  
