@@ -5,6 +5,8 @@
 <body>
 	<div class="float">
 		<div class="results-center" style="justify-content: left; position: fixed;">
+			<input type="file" id="picker" style="display: none;" />
+			<input type="button" class="picker-small" value="Select a File" onclick="document.getElementById('picker').click();" />
 			<button onclick="tree.zoomToFit(duration = 500)" class="btn">Zoom Out</button>
 			<button onclick="tree.resetZoom(duration = 500)" class="btn">Reset</button>
 		</div>
